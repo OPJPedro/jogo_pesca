@@ -39,13 +39,15 @@
     {"id":{"name":"obj_pesca_summer","path":"objects/obj_pesca_summer/obj_pesca_summer.yy",},},
     {"id":{"name":"obj_pescador_summer","path":"objects/obj_pescador_summer/obj_pescador_summer.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
+    {"id":{"name":"rm_TESTE_pedro","path":"rooms/rm_TESTE_pedro/rm_TESTE_pedro.yy",},},
     {"id":{"name":"spr_template","path":"sprites/spr_template/spr_template.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
+    {"roomId":{"name":"rm_TESTE_pedro","path":"rooms/rm_TESTE_pedro/rm_TESTE_pedro.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

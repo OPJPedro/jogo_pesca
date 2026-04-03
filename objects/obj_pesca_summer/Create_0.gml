@@ -1,3 +1,6 @@
+//faz a bolinha iniciar no meio do retângulo
+y = ystart - 100
+
 //define se o dash será para cima ou para baixo
 positivo = noone;
 //define a velocidade do dash
