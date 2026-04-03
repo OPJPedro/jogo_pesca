@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pesca",
+  "%Name":"obj_pesca_summer",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -8,11 +8,11 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pesca",
+  "name":"obj_pesca_summer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Minigame Pesca - Summer",
+    "path":"folders/Objects/Minigame Pesca - Summer.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_template",
+    "path":"sprites/spr_template/spr_template.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
