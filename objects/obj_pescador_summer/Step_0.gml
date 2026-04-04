@@ -23,7 +23,9 @@ if y < ystart - 167		{y = ystart - 167}
 
 show_debug_message(global.pontos)
 
-if global.pontos == 100
+if global.pontos == global.max_pontos
 {
 	instance_destroy()
+	global.minigame_on = false;
+	global.pontos = 0
 }

@@ -5,4 +5,9 @@ y += vel
 if y > ystart	{y = ystart}
 if y < ystart - 197		{y = ystart - 197}
 
-//if peixe_doido > 150 {peixe_doido = 150}
+if global.pontos == global.max_pontos
+{
+	instance_destroy()
+	global.minigame_on = false;
+	global.pontos = 0
+}

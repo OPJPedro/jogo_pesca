@@ -10,9 +10,9 @@ positivo = noone;
 //define a velocidade do dash
 dash_speed = 25;
 //define o valor que o objeto se movera quando não está recebendo dash
-vel = 0.2;
+vel = .5;
 //cooldown do dash em frames
-dash_cooldown = 70;
+dash_cooldown = 40;
 //dispara o alarme inicial depois de 20 frames
 alarm[0] = dash_cooldown;
 
