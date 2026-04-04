@@ -1,7 +1,7 @@
 
-
 //faz a bolinha iniciar no meio do retângulo
 y = ystart + choose(-100, -75, -125)
+
 
 
 
