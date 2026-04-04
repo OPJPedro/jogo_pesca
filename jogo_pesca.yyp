@@ -43,6 +43,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_camera","path":"rooms/rm_camera/rm_camera.yy",},},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
+    {"id":{"name":"rm_pedro_teste","path":"rooms/rm_pedro_teste/rm_pedro_teste.yy",},},
     {"id":{"name":"scr_var_global","path":"scripts/scr_var_global/scr_var_global.yy",},},
     {"id":{"name":"spr_template","path":"sprites/spr_template/spr_template.yy",},},
   ],
@@ -51,6 +52,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"roomId":{"name":"rm_camera","path":"rooms/rm_camera/rm_camera.yy",},},
+    {"roomId":{"name":"rm_pedro_teste","path":"rooms/rm_pedro_teste/rm_pedro_teste.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
