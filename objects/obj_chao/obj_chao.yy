@@ -1,18 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pescador_summer",
-
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
-
+  "%Name":"obj_chao",
+  "eventList":[],
   "managed":true,
-  "name":"obj_pescador_summer",
+  "name":"obj_chao",
   "overriddenProperties":[],
   "parent":{
-    "name":"Minigame Pesca - Summer",
-    "path":"folders/Objects/Minigame Pesca - Summer.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,12 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-
   "spriteId":{
     "name":"spr_template",
     "path":"sprites/spr_template/spr_template.yy",
   },
-
   "spriteMaskId":null,
   "visible":true,
 }

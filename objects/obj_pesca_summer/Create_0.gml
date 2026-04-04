@@ -1,6 +1,8 @@
 
+
 //faz a bolinha iniciar no meio do retângulo
 y = ystart + choose(-100, -75, -125)
+
 
 
 //define se o dash será para cima ou para baixo
