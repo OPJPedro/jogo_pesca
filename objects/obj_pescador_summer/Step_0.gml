@@ -10,13 +10,20 @@ if espaco
 
 
 
-if place_meeting(x, y, obj_pescador_summer)
+if place_meeting(x, y, obj_pesca_summer)
 {
 	global.pontos++
-}else {global.pontos--}
+} else {
+    global.pontos--
+}
 if global.pontos < 0 {global.pontos = 0}
 
 if y > ystart	{y = ystart}
-if y < ystart - 197		{y = ystart - 197}
+if y < ystart - 167		{y = ystart - 167}
 
 show_debug_message(global.pontos)
+
+if global.pontos == 100
+{
+	instance_destroy()
+}
