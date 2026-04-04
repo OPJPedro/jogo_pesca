@@ -12,7 +12,7 @@ if (direita)
 	x -= vel;
 };
 
-if comeca_minigame //&& !global.minigame_on
+if comeca_minigame && !global.minigame_on
 {
 	global.minigame_on = true;
 	instance_create_layer(270, 350, "Instances", obj_pesca_summer)

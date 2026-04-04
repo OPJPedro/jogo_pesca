@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_template",
-    "path":"sprites/spr_template/spr_template.yy",
+    "name":"spr_template_peixe",
+    "path":"sprites/spr_template_peixe/spr_template_peixe.yy",
   },
   "spriteMaskId":null,
   "visible":true,

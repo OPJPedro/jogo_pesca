@@ -1,3 +1,6 @@
+if global.minigame_on
+{
+
 //comandos
 espaco = keyboard_check(vk_space)
 
@@ -26,6 +29,8 @@ show_debug_message(global.pontos)
 if global.pontos == global.max_pontos
 {
 	instance_destroy()
+	instance_destroy(obj_pesca_summer)
 	global.minigame_on = false;
 	global.pontos = 0
+}
 }

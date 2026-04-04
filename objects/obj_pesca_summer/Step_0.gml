@@ -5,9 +5,3 @@ y += vel
 if y > ystart	{y = ystart}
 if y < ystart - 197		{y = ystart - 197}
 
-if global.pontos == global.max_pontos
-{
-	instance_destroy()
-	global.minigame_on = false;
-	global.pontos = 0
-}

@@ -11,8 +11,6 @@ if positivo {
 	y-=dash_speed
 	vel = -0.2
 }
-//y += choose(dash_speed, -dash_speed);
-//vel = dash_speed / 24;
 
 //toca o alarme novamente
 alarm[0] = dash_cooldown

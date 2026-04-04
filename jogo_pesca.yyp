@@ -45,6 +45,8 @@
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"id":{"name":"rm_pedro_teste","path":"rooms/rm_pedro_teste/rm_pedro_teste.yy",},},
     {"id":{"name":"scr_var_global","path":"scripts/scr_var_global/scr_var_global.yy",},},
+    {"id":{"name":"spr_template_peixe","path":"sprites/spr_template_peixe/spr_template_peixe.yy",},},
+    {"id":{"name":"spr_template_pescador","path":"sprites/spr_template_pescador/spr_template_pescador.yy",},},
     {"id":{"name":"spr_template","path":"sprites/spr_template/spr_template.yy",},},
   ],
   "resourceType":"GMProject",
