@@ -16,5 +16,3 @@ if positivo {
 
 //toca o alarme novamente
 alarm[0] = dash_cooldown
-
-show_debug_message(y)

@@ -10,3 +10,5 @@ if (direita)
 {
 	x -= vel;
 };
+
+show_debug_message(global.pontos)

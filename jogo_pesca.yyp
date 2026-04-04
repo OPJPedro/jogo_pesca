@@ -41,13 +41,14 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"id":{"name":"rm_TESTE_pedro","path":"rooms/rm_TESTE_pedro/rm_TESTE_pedro.yy",},},
+    {"id":{"name":"scr_global_var","path":"scripts/scr_global_var/scr_global_var.yy",},},
     {"id":{"name":"spr_template","path":"sprites/spr_template/spr_template.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"roomId":{"name":"rm_TESTE_pedro","path":"rooms/rm_TESTE_pedro/rm_TESTE_pedro.yy",},},
+    {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
