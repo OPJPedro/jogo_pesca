@@ -1,2 +1,2 @@
-altura_max = 200;
-largura_barra = 10;
+altura_max = 10;
+largura_barra = 200;

@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_template_progresso",
+    "path":"sprites/spr_template_progresso/spr_template_progresso.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

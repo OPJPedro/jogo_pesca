@@ -30,6 +30,7 @@ if global.pontos == global.max_pontos
 {
 	instance_destroy()
 	instance_destroy(obj_pesca_summer)
+	instance_destroy(obj_barra_progresso)
 	global.minigame_on = false;
 	global.pontos = 0
 }
