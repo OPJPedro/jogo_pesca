@@ -22,4 +22,6 @@ switch global.peixe_pescado
 	{
 		valor = 75
 	}
+	
+	break
 }
