@@ -33,5 +33,10 @@ if global.pontos >= global.max_pontos
 	instance_destroy(obj_barra_progresso)
 	global.minigame_on = false;
 	global.pontos = 0
+	
+	instance_create_layer(x, y, layer, obj_peixes)
+	global.dinheiro += obj_peixes.valor
+	show_message("Você pescou um peixe " + string(global.peixe_pescado))
+	alarm[0] = 120
 }
 }
