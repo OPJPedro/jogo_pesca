@@ -15,4 +15,3 @@ mostra_estado = true
 
 //massa do personagem; quanto maior o valor, mais rapido ele cai
 massa = 1
-
