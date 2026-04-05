@@ -4,7 +4,7 @@ if indice < string_length(texto)
 	indice += .5
 } else if indice >= string_length(texto)
 {
-	if keyboard_check(vk_enter) {indice = 0; texto = "bla bla bla bla bla bla bla bla bla"}
+	if keyboard_check(vk_enter) {indice = 0; texto = "six seveeeen hahaaaaaaa te peguei otario"}
 }
 //acelera a escrita do texto	
 if keyboard_check(vk_space) {indice += 2}
