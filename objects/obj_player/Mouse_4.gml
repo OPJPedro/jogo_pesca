@@ -1,0 +1,1 @@
+mostra_estado = !mostra_estado

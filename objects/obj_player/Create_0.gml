@@ -7,10 +7,11 @@ hsp = 0
 vsp = 0
 max_hsp = .5
 max_vsp = 15
+xscale = 1
 
 //inicia a maquina deliciosa de estados hmmmmm que maravilha
 estado = "parado"
-mostra_estado = false
+mostra_estado = true
 
 //massa do personagem; quanto maior o valor, mais rapido ele cai
 massa = 1
