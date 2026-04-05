@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_chao",
+  "%Name":"obj_area_minigame",
   "eventList":[],
   "managed":true,
-  "name":"obj_chao",
+  "name":"obj_area_minigame",
   "overriddenProperties":[],
   "parent":{
-    "name":"elementos da sala",
-    "path":"folders/Objects/elementos da sala.yy",
+    "name":"Minigame Pesca - Summer",
+    "path":"folders/Objects/Minigame Pesca - Summer.yy",
   },
   "parentObjectId":null,
   "persistent":false,

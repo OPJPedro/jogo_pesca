@@ -9,8 +9,8 @@
   "name":"obj_npc",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"elementos da sala",
+    "path":"folders/Objects/elementos da sala.yy",
   },
   "parentObjectId":null,
   "persistent":false,
