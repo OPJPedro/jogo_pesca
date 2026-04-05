@@ -36,6 +36,7 @@
   },
   "name":"jogo_pesca",
   "resources":[
+    {"id":{"name":"fonte_foda","path":"fonts/fonte_foda/fonte_foda.yy",},},
     {"id":{"name":"obj_barra_progresso","path":"objects/obj_barra_progresso/obj_barra_progresso.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
@@ -51,6 +52,7 @@
     {"id":{"name":"scr_macro","path":"scripts/scr_macro/scr_macro.yy",},},
     {"id":{"name":"scr_var_global","path":"scripts/scr_var_global/scr_var_global.yy",},},
     {"id":{"name":"spr_colisao_conversa","path":"sprites/spr_colisao_conversa/spr_colisao_conversa.yy",},},
+    {"id":{"name":"spr_dialogo","path":"sprites/spr_dialogo/spr_dialogo.yy",},},
     {"id":{"name":"spr_npc_jullian_hud","path":"sprites/spr_npc_jullian_hud/spr_npc_jullian_hud.yy",},},
     {"id":{"name":"spr_npc_jullian","path":"sprites/spr_npc_jullian/spr_npc_jullian.yy",},},
     {"id":{"name":"spr_template_peixe","path":"sprites/spr_template_peixe/spr_template_peixe.yy",},},
