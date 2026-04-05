@@ -17,7 +17,7 @@ if place_meeting(x, y, obj_pesca_summer)
 {
 	global.pontos++
 } else {
-    global.pontos--
+    global.pontos -= .5
 }
 if global.pontos < 0 {global.pontos = 0}
 
@@ -26,7 +26,7 @@ if y < ystart - 167		{y = ystart - 167}
 
 show_debug_message(global.pontos)
 
-if global.pontos == global.max_pontos
+if global.pontos >= global.max_pontos
 {
 	instance_destroy()
 	instance_destroy(obj_pesca_summer)
