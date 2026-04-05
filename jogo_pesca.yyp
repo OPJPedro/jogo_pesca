@@ -36,6 +36,7 @@
   },
   "name":"jogo_pesca",
   "resources":[
+    {"id":{"name":"obj_barra_progresso","path":"objects/obj_barra_progresso/obj_barra_progresso.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
     {"id":{"name":"obj_pesca_summer","path":"objects/obj_pesca_summer/obj_pesca_summer.yy",},},
@@ -45,6 +46,8 @@
     {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"id":{"name":"rm_pedro_teste","path":"rooms/rm_pedro_teste/rm_pedro_teste.yy",},},
     {"id":{"name":"scr_var_global","path":"scripts/scr_var_global/scr_var_global.yy",},},
+    {"id":{"name":"spr_npc_jullian_hud","path":"sprites/spr_npc_jullian_hud/spr_npc_jullian_hud.yy",},},
+    {"id":{"name":"spr_npc_jullian","path":"sprites/spr_npc_jullian/spr_npc_jullian.yy",},},
     {"id":{"name":"spr_template_peixe","path":"sprites/spr_template_peixe/spr_template_peixe.yy",},},
     {"id":{"name":"spr_template_pescador","path":"sprites/spr_template_pescador/spr_template_pescador.yy",},},
     {"id":{"name":"spr_template","path":"sprites/spr_template/spr_template.yy",},},
@@ -52,8 +55,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"roomId":{"name":"rm_camera","path":"rooms/rm_camera/rm_camera.yy",},},
+    {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
     {"roomId":{"name":"rm_pedro_teste","path":"rooms/rm_pedro_teste/rm_pedro_teste.yy",},},
   ],
   "templateType":"game",
