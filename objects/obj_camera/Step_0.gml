@@ -1,3 +1,12 @@
+if global.pause
+{
+	image_speed = 0
+	exit
+}else
+{
+	image_speed = 1
+}
+
 //Se não tiver nenhumm target ele sai do evento
 if target == noone { exit }
 

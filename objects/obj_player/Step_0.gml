@@ -1,3 +1,11 @@
+if global.pause
+{
+	image_speed = 0
+	exit
+}else
+{
+	image_speed = 1
+}
 //comandos:
 esquerda = keyboard_check(ord("A")) or keyboard_check(vk_left);
 direita = keyboard_check(ord("D")) or keyboard_check(vk_right);
@@ -119,7 +127,7 @@ switch estado
 		//sprite do boneco conversando
 		hsp = 0;
 		
-		if keyboard_check_pressed(vk_escape)
+		if keyboard_check_pressed(vk_tab)
 		{
 			estado = "parado"
 		}

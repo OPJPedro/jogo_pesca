@@ -1,3 +1,11 @@
+if global.pause
+{
+	image_speed = 0
+	exit
+}else
+{
+	image_speed = 1
+}
 //se estiver em contato ccom o player
 if place_meeting(x, y, obj_player)
 {

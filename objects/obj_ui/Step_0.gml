@@ -1,3 +1,11 @@
+if global.pause
+{
+	image_speed = 0
+	exit
+}else
+{
+	image_speed = 1
+}
 //enquanto o indice for menor que o numero de caracteres do texto
 if indice < string_length(texto)
 {		
