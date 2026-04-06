@@ -35,6 +35,7 @@
     {"link":"io.gamemaker.gm_filter_distort-1.0.0","name":"io.gamemaker.gm_filter_distort-1.0.0","path":"io.gamemaker.gm_filter_distort-1.0.0.yyp",},
     {"link":"io.gamemaker.gm_filter_twirl_distort-1.0.0","name":"io.gamemaker.gm_filter_twirl_distort-1.0.0","path":"io.gamemaker.gm_filter_twirl_distort-1.0.0.yyp",},
     {"link":"io.gamemaker.gm_filter_underwater-1.0.0","name":"io.gamemaker.gm_filter_underwater-1.0.0","path":"io.gamemaker.gm_filter_underwater-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_parallax-1.0.0","name":"io.gamemaker.gm_filter_parallax-1.0.0","path":"io.gamemaker.gm_filter_parallax-1.0.0.yyp",},
   ],
   "IncludedFiles":[],
   "isEcma":false,
