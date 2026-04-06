@@ -38,6 +38,15 @@ if surface_exists(surf)
         image_angle, c_white, 0.5)
     }
 
+		with (obj_grama) 
+    {
+        draw_sprite_ext(sprite_index, image_index,
+        x - cam_x,
+        y - cam_y + sprite_height + 70,
+        image_xscale, -image_yscale,
+        image_angle, c_white, 0.5)
+	}
+	
     surface_reset_target()
 
     // Desenha a superfície exatamente onde a câmera está
