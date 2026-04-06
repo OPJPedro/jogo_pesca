@@ -1,11 +1,14 @@
-if global.pause
-{
-	image_speed = 0
-	exit
-}else
-{
-	image_speed = 1
-}
+
+//if global.pause
+//{
+//	image_speed = 0
+//	exit
+
+//}else
+//{
+//	image_speed = 1
+//	alarm[0] = dash_cooldown
+//}
 randomise()
 
 //Escolhe se o valor será positivo ou negativo
