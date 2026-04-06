@@ -46,14 +46,14 @@ if raridade == 1
 }else if raridade > 70 && raridade <= 90 
 {
 	global.peixe_tipo = "Baiacu"
-	valor += 40
+	valor += 60
 }else if raridade > 90 && raridade <= 100 
 {
 	global.peixe_tipo = "Atum"
-	valor += 50
+	valor += 100
 }else
 {
 	global.peixe_tipo= "Tubarão branco dos olhos azuis"
-	valor += 100000000
+	valor += 1000
 }
 
