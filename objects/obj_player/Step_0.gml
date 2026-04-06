@@ -12,10 +12,10 @@ if !global.minigame_on
 		//movimentação:
 		if (direita)
 		{
-			hsp += max_hsp;
+			hsp = max_hsp;
 		} else if (esquerda)
 		{
-			hsp -= max_hsp;
+			hsp = -max_hsp;
 		} else
 		{
 			hsp = 0

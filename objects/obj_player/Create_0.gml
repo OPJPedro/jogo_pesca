@@ -5,13 +5,13 @@ cam.target = id
 //iniciando as variáveis de velocidade horizontal e velocidade vertical
 hsp = 0
 vsp = 0
-max_hsp = .5
+max_hsp = 7
 max_vsp = 15
 xscale = 1
 
 //inicia a maquina deliciosa de estados hmmmmm que maravilha
 estado = "parado"
-mostra_estado = true
+mostra_estado = false
 
 //massa do personagem; quanto maior o valor, mais rapido ele cai
 massa = 1
