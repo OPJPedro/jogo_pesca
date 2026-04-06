@@ -1,6 +1,6 @@
-var porra = layer_get_id("Assets");
-layer_sprite_xscale(porra, 3)
-layer_background_yscale(porra, 3)
+var asset = layer_get_id("Assets");
+layer_sprite_xscale(asset, 3)
+layer_background_yscale(asset, 3)
 
 var ceu = layer_background_get_id("Ceu");
 layer_background_xscale(ceu, 3);
@@ -25,4 +25,5 @@ layer_background_yscale(nuvem2, 3);
 var montanhas = layer_background_get_id("Montanhas");
 layer_background_xscale(montanhas, 3);
 layer_background_yscale(montanhas, 3);
+
 

@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_montanhas",
   "bboxMode":0,
-  "bbox_bottom":150,
+  "bbox_bottom":155,
   "bbox_left":0,
   "bbox_right":426,
   "bbox_top":75,
