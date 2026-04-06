@@ -48,7 +48,7 @@ if global.pontos >= global.max_pontos
 	instance_create_layer(x, y, layer, obj_peixes)
 	//trás o valor do peixe e aumenta o dinheiro
 	global.dinheiro += obj_peixes.valor
-	show_message("Você pescou um peixe " + string(global.peixe_pescado))
+	show_message("Você pescou um " + string(global.peixe_tipo)+ " " + string(global.peixe_pescado))
 	//detrói o obj_peixe para resetar seu valor a zero novamente.
 	instance_destroy(obj_peixes)
 }

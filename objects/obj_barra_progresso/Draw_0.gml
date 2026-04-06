@@ -1,6 +1,19 @@
 
 draw_self();
 
+if global.minigame_on
+{
+	var _porcentagem = global.pontos / global.max_pontos
+	var _largura_atual = largura_barra * _porcentagem
+	
+	draw_sprite_stretched(spr_template_progresso, 0, x - 5, y - 36, 207, 50)
+	
+	draw_set_colour(#fff6d3)
+	draw_rectangle(x, y, x + _largura_atual, y - altura_max, false)
+}
+
+
+/*
 //se o minigame estiver ativo
 if global.minigame_on 
 {

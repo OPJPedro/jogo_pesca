@@ -117,6 +117,7 @@ switch estado
 	case "conversando":
 	{
 		//sprite do boneco conversando
+		hsp = 0;
 		
 		if keyboard_check_pressed(vk_escape)
 		{
