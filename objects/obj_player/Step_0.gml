@@ -33,7 +33,7 @@ if !global.minigame_on
 
 // Virar o sprite
 if (hsp != 0) xscale = sign(hsp);
-image_xscale = xscale;
+image_xscale = -xscale;
 
 #region colisoes
 var _hsp = sign(hsp)

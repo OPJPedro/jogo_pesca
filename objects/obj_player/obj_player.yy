@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_template",
-    "path":"sprites/spr_template/spr_template.yy",
+    "name":"spr_player_jogo",
+    "path":"sprites/spr_player_jogo/spr_player_jogo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

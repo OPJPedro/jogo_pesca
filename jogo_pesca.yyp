@@ -72,6 +72,8 @@
     {"id":{"name":"spr_npc_jullian","path":"sprites/spr_npc_jullian/spr_npc_jullian.yy",},},
     {"id":{"name":"spr_nuvens1","path":"sprites/spr_nuvens1/spr_nuvens1.yy",},},
     {"id":{"name":"spr_nuvens2","path":"sprites/spr_nuvens2/spr_nuvens2.yy",},},
+    {"id":{"name":"spr_player_hud","path":"sprites/spr_player_hud/spr_player_hud.yy",},},
+    {"id":{"name":"spr_player_jogo","path":"sprites/spr_player_jogo/spr_player_jogo.yy",},},
     {"id":{"name":"spr_template_peixe","path":"sprites/spr_template_peixe/spr_template_peixe.yy",},},
     {"id":{"name":"spr_template_pescador","path":"sprites/spr_template_pescador/spr_template_pescador.yy",},},
     {"id":{"name":"spr_template_progresso","path":"sprites/spr_template_progresso/spr_template_progresso.yy",},},
