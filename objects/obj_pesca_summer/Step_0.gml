@@ -8,10 +8,45 @@ if global.pause
 }
 
 
-//da velocidade de movimento ao objeto quando não está recebendo dash
-y += vel
+// Dá a velocidade de movimento ao objeto quando não está recebendo dash
+y += vel;
 
-//limitação, para ficar dentro do retângulo
-if y > ystart	{y = ystart}
-if y < ystart - 197		{y = ystart - 197}
+// Limitação INFERIOR (Fundo da barra)
+if y > ystart	
+{
+	if global.peixe_tipo == "Baiacu"
+	{
+		// Descobre o quanto ele ultrapassou o limite do fundo
+		var passou = y - ystart; 
+		
+		// Rebate ele de volta para cima
+		y = ystart - passou; 
+		
+		// Inverte a velocidade para ele continuar subindo
+		vel = -abs(vel); 
+	}
+	else 
+	{
+		y = ystart;
+	}
+}
 
+// Limitação SUPERIOR (Topo da barra)
+if y < ystart - 197		
+{
+	if global.peixe_tipo == "Baiacu"
+	{
+		// Descobre o quanto ele ultrapassou o limite do topo
+		var passou = (ystart - 197) - y; 
+		
+		// Rebate ele de volta para baixo
+		y = (ystart - 197) + passou; 
+		
+		// Inverte a velocidade para ele continuar descendo
+		vel = abs(vel); 
+	}
+	else
+	{
+		y = ystart - 197;
+	}
+}
