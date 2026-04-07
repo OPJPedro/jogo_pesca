@@ -105,6 +105,7 @@ switch estado
 		if global.minigame_on
 		{
 			estado = "pescando"
+			hsp = 0
 		}
 	
 		break;
@@ -143,8 +144,8 @@ if comeca_minigame && !global.minigame_on && place_meeting(x, y, obj_area_miniga
 	
 	//comeca o minigame e cria as instâncias do jogo
 	global.minigame_on = true;
-	instance_create_layer(270, 350, "Instances", obj_pesca_summer)
 	instance_create_layer(270, 335.5, "Instances", obj_pescador_summer)
+	instance_create_layer(270, 350, "Instances", obj_pesca_summer)
 	instance_create_layer(300, 250, "Instances", obj_barra_progresso)	
 }
 

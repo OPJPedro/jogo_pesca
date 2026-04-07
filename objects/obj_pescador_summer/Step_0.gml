@@ -63,4 +63,7 @@ if global.pontos >= global.max_pontos
 	instance_destroy(obj_peixes)
 	global.valor_peixe = 0
 }
+}else
+{
+	instance_destroy()
 }

@@ -13,8 +13,14 @@ show_debug_message(raridade)
 //seta os tipos de peixes e seus  valores
 if raridade == 1
 {
-		obj_peixes.valor -= 200
+		global.dinheiro -= 200
 		show_message("Perdeu a vara!")
+		global.minigame_on = false
+		
+		instance_destroy(obj_pescador_summer)
+		instance_destroy(obj_barra_progresso)
+		instance_destroy()
+		
 }else if raridade > 1 && raridade <= 40 
 {
 	global.peixe_tipo = "Tilápia"
@@ -61,7 +67,7 @@ if raridade == 1
 	
 	dash_tipo_peixe = 50;
 	vel_tipo_peixe = 8;
-	dc_tipo_peixe = 1;
+	dc_tipo_peixe = 10;
 	global.max_pontos = 20000000000;
 }
 
