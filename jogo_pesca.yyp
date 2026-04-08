@@ -56,6 +56,7 @@
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
     {"id":{"name":"obj_grama","path":"objects/obj_grama/obj_grama.yy",},},
+    {"id":{"name":"obj_HUD","path":"objects/obj_HUD/obj_HUD.yy",},},
     {"id":{"name":"obj_npc","path":"objects/obj_npc/obj_npc.yy",},},
     {"id":{"name":"obj_parallax","path":"objects/obj_parallax/obj_parallax.yy",},},
     {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},},
