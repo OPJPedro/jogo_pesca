@@ -76,6 +76,7 @@ switch estado
 {
 	case "parado":
 	{
+		sprite_index = spr_player_jogo
 		//sprite do boneco parado
 	
 		if direita or esquerda
@@ -94,6 +95,8 @@ switch estado
 	
 	case "movendo":
 	{
+		
+		sprite_index = spr_andando
 		//sprite do boneco andando
 	
 		if (abs(hsp) < 0.1) 
